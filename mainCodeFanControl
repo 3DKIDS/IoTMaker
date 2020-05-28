@@ -57,10 +57,9 @@ void init_shield()
 {
 	sdcard_deselect();
 	
-	const char* WIFI_SSID = "WGF_2G";
-	const char* WIFI_PASS = "minimo9595!";
-  //const char* WIFI_SSID = "jongwonIphone";
-  //const char* WIFI_PASS = "smmjw2019!";
+	const char* WIFI_SSID = "당신의아이디";
+	const char* WIFI_PASS = "패스워드";
+ 
 	g_shield.begin(WIFI_SSID, WIFI_PASS);
 
 	g_shield.print();
@@ -72,9 +71,9 @@ IoTMakers
 */
 IoTMakers g_im;
 
-const char deviceID[]   = "modufaD1590586121759";
-const char authnRqtNo[] = "oxsmgd714";
-const char extrSysID[]  = "OPEN_TCP_001PTL001_1000002944";
+const char deviceID[]   = "xxxxx";
+const char authnRqtNo[] = "xxxx";
+const char extrSysID[]  = "xxxxxx";
 
 void init_iotmakers()
 {
