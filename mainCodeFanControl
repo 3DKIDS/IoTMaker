@@ -1,3 +1,9 @@
+/*
+수정 서종원 
+3dkids4u@gmail.com
+와글와글팩토리 (인공지능 메이커스페이스)
+*/
+
 #include <Arduino.h>
 #include <SPI.h>
 
