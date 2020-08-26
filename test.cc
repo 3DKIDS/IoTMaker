@@ -71,9 +71,9 @@ IoTMakers
 */
 IoTMakers g_im;
 
-const char deviceID[]   = "";
-const char authnRqtNo[] = "9";
-const char extrSysID[]  = "9";
+const char deviceID[]   = "당신의정보";
+const char authnRqtNo[] = "당신의정보";
+const char extrSysID[]  = "당신의정보";
 
 void init_iotmakers()
 {
