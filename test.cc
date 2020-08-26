@@ -57,8 +57,8 @@ void init_shield()
 {
 	sdcard_deselect();
 	
-	const char* WIFI_SSID = "WGF_2G";
-	const char* WIFI_PASS = "minimo9595!";
+	const char* WIFI_SSID = "당신의정보";
+	const char* WIFI_PASS = "당신의정보";
   
 	g_shield.begin(WIFI_SSID, WIFI_PASS);
 
