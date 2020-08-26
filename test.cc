@@ -59,8 +59,7 @@ void init_shield()
 	
 	const char* WIFI_SSID = "WGF_2G";
 	const char* WIFI_PASS = "minimo9595!";
-  //const char* WIFI_SSID = "jongwonIphone";
-  //const char* WIFI_PASS = "smmjw2019!";
+  
 	g_shield.begin(WIFI_SSID, WIFI_PASS);
 
 	g_shield.print();
